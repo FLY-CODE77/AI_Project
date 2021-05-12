@@ -42,10 +42,10 @@ class mlplinear():
 
     def prediction(self, model):
         
-        early_stop = keras.callbacks.EarlyStopping(monitor='val_loss', patience=200)
+        early_stop = keras.callbacks.EarlyStopping(monitor='val_loss', patience=4999)
         history = model.fit(
         self.x_data, self.y_data, batch_size=self.batch_size,
-        epochs=self.epochs, validation_split = 0.2, verbose=1,callbacks=[early_stop]
+        epochs=self.epochs, validation_split = self.validation_split, verbose=1, callbacks=[early_stop]
          )
         
         return history
