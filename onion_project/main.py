@@ -21,7 +21,7 @@ y_test_data = test_data.pop("avgPrice")
 
 # build mlp model
 dim = len(train_data.columns) 
-mlplinear = mlplinear(dim=dim, learning_rate=0.000005, epochs=3000, x_data=train_data, y_data=y_train_data, batch_size=8)
+mlplinear = mlplinear(dim=dim, learning_rate=0.000005, epochs=10000, x_data=train_data, y_data=y_train_data, batch_size=8)
 '''
 mlplinear package need 
 x dimention , learning rate, epochs, x_data, y_data, batch_size, validation split rate
