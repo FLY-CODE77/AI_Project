@@ -37,7 +37,7 @@
 - console 창 결과 
     - 최근 30일 평균 파 가격 보다 예측된 파 가격이 싸다면 사세요!!
     - 최근 30일 평균 파 가격 보다 예측된 파 가격이 비싸면 참으시에요!! 출력되게 구성
-
+![Screenshot from 2021-05-12 19-52-43](https://user-images.githubusercontent.com/72845895/117963710-ad8c9700-b35b-11eb-9d94-030fdb7fa89d.png)
 
 > FIN 파절이 삼겹살 먹으로 가야지!! 
 
